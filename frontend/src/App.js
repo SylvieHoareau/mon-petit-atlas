@@ -6,7 +6,7 @@ import 'leaflet/dist/leaflet.css';
 function App() {
   return (
     <div className="App">
-      <MapContainer style={{ height: "100vh" }} center={[51.505, -0.09]} zoom={13}>
+      <MapContainer style={{ height: "100vh" }} center={[51.505, -0.09]} zoom={2}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
